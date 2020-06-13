@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7e0a0a" height="400.0" stroke="BLACK" strokeType="INSIDE" width="640.0" />
+            <Text layoutX="179.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Das Rote Auto muss befreit werden ">
+               <font>
+                  <Font name="Broadway" size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="61.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Verschiebe dazu die anderen Autos um den Ausgang frei zu legen ">
+               <font>
+                  <Font name="Broadway" size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="68.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alle Autos dürfen dazu nur in ihrer Ausrichtung verschoen werden ">
+               <font>
+                  <Font name="Broadway" size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="243.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Regeln">
+               <font>
+                  <Font name="Broadway" size="44.0" />
+               </font>
+            </Text>
+            <Button fx:id="button_back_rules" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#press_back" text="Zurück">
+               <font>
+                  <Font name="Broadway" size="12.0" />
+               </font>
+            </Button>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
